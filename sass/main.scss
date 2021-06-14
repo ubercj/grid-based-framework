@@ -1,0 +1,47 @@
+@use 'reset';
+@use 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+@mixin headings($font-size) {
+  font-family: variables.$header-font;
+  font-size: $font-size;
+  margin-bottom: 1rem;
+}
+
+%flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: variables.$bg-color;
+  font-family: variables.$body-font;
+}
+
+h1 {
+  @include headings($font-size: 2.5rem);
+}
+
+h2 {
+  @include headings($font-size: 2rem);
+}
+
+h3 {
+  @include headings($font-size: 1.8rem);
+}
+
+.wrapper {
+  @extend %flex;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.container {
+  @extend %flex;
+  width: 80%;
+  padding: 3rem;
+}
