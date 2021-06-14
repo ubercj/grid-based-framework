@@ -109,7 +109,7 @@ h3 {
   text-align: center;
 }
 
-.l_grid_1 {
+.grid_1 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -117,7 +117,7 @@ h3 {
   width: 7.3333333333%;
 }
 
-.l_grid_2 {
+.grid_2 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -125,7 +125,7 @@ h3 {
   width: 15.6666666667%;
 }
 
-.l_grid_3 {
+.grid_3 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -133,7 +133,7 @@ h3 {
   width: 24%;
 }
 
-.l_grid_4 {
+.grid_4 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -141,7 +141,7 @@ h3 {
   width: 32.3333333333%;
 }
 
-.l_grid_5 {
+.grid_5 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -149,7 +149,7 @@ h3 {
   width: 40.6666666667%;
 }
 
-.l_grid_6 {
+.grid_6 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -157,7 +157,7 @@ h3 {
   width: 49%;
 }
 
-.l_grid_7 {
+.grid_7 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -165,7 +165,7 @@ h3 {
   width: 57.3333333333%;
 }
 
-.l_grid_8 {
+.grid_8 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -173,7 +173,7 @@ h3 {
   width: 65.6666666667%;
 }
 
-.l_grid_9 {
+.grid_9 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -181,7 +181,7 @@ h3 {
   width: 74%;
 }
 
-.l_grid_10 {
+.grid_10 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -189,7 +189,7 @@ h3 {
   width: 82.3333333333%;
 }
 
-.l_grid_11 {
+.grid_11 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -197,7 +197,7 @@ h3 {
   width: 90.6666666667%;
 }
 
-.l_grid_12 {
+.grid_12 {
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-top: 1rem;
@@ -302,8 +302,8 @@ h3 {
     width: 99%;
   }
 }
-@media screen and (max-width: 767px) {
-  .grid_1 {
+@media screen and (min-width: 1024px) {
+  .l_grid_1 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -311,7 +311,7 @@ h3 {
     width: 7.3333333333%;
   }
 
-  .grid_2 {
+  .l_grid_2 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -319,7 +319,7 @@ h3 {
     width: 15.6666666667%;
   }
 
-  .grid_3 {
+  .l_grid_3 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -327,7 +327,7 @@ h3 {
     width: 24%;
   }
 
-  .grid_4 {
+  .l_grid_4 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -335,7 +335,7 @@ h3 {
     width: 32.3333333333%;
   }
 
-  .grid_5 {
+  .l_grid_5 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -343,7 +343,7 @@ h3 {
     width: 40.6666666667%;
   }
 
-  .grid_6 {
+  .l_grid_6 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -351,7 +351,7 @@ h3 {
     width: 49%;
   }
 
-  .grid_7 {
+  .l_grid_7 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -359,7 +359,7 @@ h3 {
     width: 57.3333333333%;
   }
 
-  .grid_8 {
+  .l_grid_8 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -367,7 +367,7 @@ h3 {
     width: 65.6666666667%;
   }
 
-  .grid_9 {
+  .l_grid_9 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -375,7 +375,7 @@ h3 {
     width: 74%;
   }
 
-  .grid_10 {
+  .l_grid_10 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -383,7 +383,7 @@ h3 {
     width: 82.3333333333%;
   }
 
-  .grid_11 {
+  .l_grid_11 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
@@ -391,7 +391,7 @@ h3 {
     width: 90.6666666667%;
   }
 
-  .grid_12 {
+  .l_grid_12 {
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1rem;
