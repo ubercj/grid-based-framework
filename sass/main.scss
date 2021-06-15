@@ -1,6 +1,7 @@
 @use 'sass:math';
 @use 'reset';
 @use 'variables';
+@use 'demo';
 
 * {
   box-sizing: border-box;
@@ -38,6 +39,7 @@ h3 {
   flex-direction: column;
   margin-left: 1rem;
   margin-right: 1rem;
+
   // To account for navbar by default
   margin-top: 5rem;
 }
@@ -67,10 +69,6 @@ h3 {
   margin-bottom: 0;
 }
 
-.test-nav {
-  background-color: yellowgreen;
-}
-
 // ------------------------- Grid ------------------------------
 
 $grid-columns: 12;
@@ -78,16 +76,12 @@ $gutter-x: 1%;
 $gutter-y: 1rem;
 $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
 
+// Default gutters
 @mixin grid {
   margin-left: math.div($gutter-x, 2);
   margin-right: math.div($gutter-x, 2);
   margin-top: $gutter-y;
   margin-bottom: $gutter-y;
-}
-
-.test {
-  border: 1px solid rgb(1, 133, 133);
-  text-align: center;
 }
 
 // ------------------------------ Mobile ----------------------------------
