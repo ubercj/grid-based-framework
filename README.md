@@ -2,6 +2,8 @@
 
 This is the final project in the CSS portion of The Odin Project's full-stack web development curriculum. You can read more about this assignment [here](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/html-and-css/lessons/design-your-own-grid-based-framework).
 
+See this framework in practice! Check out a site that I constructed using the framework [here](https://ubercj.github.io/four-twenty-seven/). And see the [code](https://github.com/ubercj/four-twenty-seven).
+
 The prompt is pretty open-ended, it's basically just "create a simple grid-based framework." The [960 grid system](http://960.gs/) was linked for inspiration. I was surprised - and impressed - at how relatively simple the CSS behind that framework is. Something feels a little bit wrong about using defined pixel values for the grid, though. One of my favorite things about working with Bootstrap was how easy it was to make a layout responsive for different screen widths.
 
 So, my two biggest priorities when designing this framework were:
